@@ -34,7 +34,7 @@ public class EcoIslandSurvival {
         Player winner = game.determineWinner();
 
         if (winner != null) {
-            System.out.println("\n🏆 Winner: " + winner.getName());
+            System.out.println("\n Winner: " + winner.getName());
             System.out.println("Final Resources: " + winner.getResources());
         } else {
             System.out.println("\nNo winner! All players failed to survive.");
